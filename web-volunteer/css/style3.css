@@ -1,0 +1,127 @@
+@import 'normalize.css';
+@import 'font-awesome.css';
+#menu {
+			background-color: #D0D0D0;
+			height: 60px;
+			width: 80%;
+			margin-right: auto;
+			margin-left: auto;
+			}
+		.nav ul{
+			width:100%;
+			}
+		.nav ul li{
+			float:left;
+			list-style-type:none;
+			}
+
+		.nav ul li a{
+			width:200px;
+			height:28px;
+			line-height:60px;
+			margin:10px 10px;
+			text-align:center;
+			text-decoration:none;
+			display:block;
+			background:#D0D0D0;
+		}
+
+		.nav ul li a:link{/*鼠标点击超链接时的状态*/
+			width:95px;
+			height:28px;
+			line-height:28px;
+			background:#D0D0D0;
+		}
+		.nav ul li a:hover {
+			width:120px;
+			height:28px;
+			line-height:28px;
+			background:#fff;
+		}
+
+		.nav ul li ul{
+			display:none;
+			padding:0px;
+			margin:0px;
+		}
+		.nav ul li ul li{
+			margin-left:10px;
+			float:none;
+			padding:0px 0px 0px 0px;
+		}
+		.nav ul li ul li a{
+			width:120px;
+			height:28px;
+			text-align:center;
+			text-decoration:none;
+			display:block;
+			background:#bcb9b7;
+			margin:0px 0px 0px 0px;
+		} 
+		.nav ul li:hover ul{
+			display:block;
+		} 
+	div{margin:10px; border:1px dotted; 
+	 border-color:#ccc;}  
+
+  	#main{
+		width:80%; margin:0 auto; 
+		background-color:#F3F3F3;
+  	}
+
+  	#div_top{
+  		text-align:center;
+  }
+ 	#div_bottom{	
+		background-color:#D0D0D0;
+		text-align:center;
+		color:white;
+		font-size:1.3em;
+		padding:10px 10px;	
+	  }  
+	  .clear{
+	  	clear :both;
+	  	height :0;
+	  }
+	  h1,h2,h3,h4,h5,h6 {    
+		color: #404040;    
+		line-height: 36px;}
+	h1 {   
+		margin-bottom: 18px;    
+		font-size: 30px;}
+	h2 { 
+		font-size: 24px;
+		text-align:center;
+	  }
+	h3 {    
+		font-size: 18px;
+		text-align:center;}
+	hr {    
+		margin: 0 0 19px;   
+		border: 0;   
+		border-bottom: 1px solid #ccc;}
+	blockquote{
+		text-align:center;
+	}
+	#left{ 
+		width:45%;	
+		float:left;
+		padding-top:100px;
+	  	padding-bottom: 160px;
+	  	background:url(images/6.jpg);
+	}    
+	#right{
+		width:45%;
+		float:right;
+	 	padding-top:30px;
+	  	padding-bottom: 30px;
+		text-align:center;
+	}	
+	.clear{
+		clear :both;
+		height :0;
+	}
+   
+
+
+	
